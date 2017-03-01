@@ -3,13 +3,33 @@
 }
 
 body{
-	background: limegreen;
+	font-family: "Helvetica", sans-serif;
 }
 
-$txt-color: maroon;
+$txt-color: #000;
 
 h2{
-	color: $txt-color;
 	border-bottom: 4px solid $txt-color;
 }
 
+.single-rep {
+	width: 30%;
+	margin: 10px;
+	background: #C8F7C5;
+	h3{
+		font-size: 18px;
+	}
+	h4{
+		font-size: 14px;
+	}
+	.social{
+		font-size: 12px;
+	}
+	p {
+		font-size: 10px;
+	}
+}
+
+.col-sm-4:nth-child(3n+1){
+    clear: left;
+}
